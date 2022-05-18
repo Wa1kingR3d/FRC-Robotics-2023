@@ -4,6 +4,22 @@
 
 #pragma once
 
+class Constants {
+	public:
+		static int rightClimbCANID;
+		static int shootDirectionCANID;
+		static int feedCANID;
+		static int leftClimbCANID;
+		static int ballFeedCANID;
+		static int shooterCANID;
+		static int intakeCANID;
+		static int leftDriveBackCANID;
+		static int leftDriveFrontCANID;
+		static int armID;
+		static int rightDriveFrontCANID;
+		static int rightDriveBackCANID;
+};
+
 /**
  * The Constants header provides a convenient place for teams to hold robot-wide
  * numerical or boolean constants.  This should not be used for any other
